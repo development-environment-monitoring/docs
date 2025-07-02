@@ -1,0 +1,42 @@
+- Estruturar projetos
+```
+- dem-client-ui
+	- Login
+	- Itens
+		- Refresh auto
+		- Refresh button
+		- View details
+	- Settings
+		- API URL
+		- Server token
+		- Verify in x minutes
+		- Logout
+	- Consome API do server
+- dem-client
+	- Roda em background
+	- Chama a API do server
+	- Pega cada issue e executa, e envia o retorno para o server
+- dem-server-ui
+	- Login
+	- Itens
+		- Edição
+		- Cadastro
+		- Listagem
+	- Usuarios
+		- Situação usuario
+		- Itens por usuario
+	- Acesso
+		- Liberar acesso
+		- Promover a ADMIN
+- dem-server
+	- Primeiro login via oauth, transforma em admin
+	- Endpoint
+		- Login
+		- Item
+			- Cadastrar item
+			- Editar item
+			- Listar itens
+		- Listagem usuarios
+		- Listar itens por usuario
+		- Listar detalhe do item executado
+```
